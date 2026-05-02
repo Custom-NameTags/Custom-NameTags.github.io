@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  background: #f7f1e8; /* light tan */
+}
+
+/* CENTER + FULL SCREEN */
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+/* MAIN SCREEN */
+.screen {
+  width: 100%;
+  max-width: 900px;
+  padding: 50px 30px 70px;
+}
+
+/* TITLE */
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+}
+
+.subtitle {
+  text-align: center;
+  color: #7a6f5c;
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+
+/* SECTIONS */
+.section {
+  margin-bottom: 28px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #5c5243;
+  font-size: 15px;
+}
+
+/* INPUTS */
+input, textarea {
+  width: 100%;
+  padding: 16px;
+  border-radius: 22px;
+  border: none;
+  background: white;
+  font-size: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(200,170,130,0.3);
+}
+
+/* COLOR PILLS */
+.color-pill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  margin-top: 10px;
+  border-radius: 25px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.color-pill input {
+  width: 45px;
+  height: 35px;
+  border: none;
+  background: none;
+}
+
+/* ADD BUTTON */
+.add-btn {
+  margin-top: 12px;
+  background: none;
+  border: none;
+  color: #a68b63;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  text-decoration: underline;
+}
+
+/* SUBMIT BUTTON */
+.submit {
+  width: 100%;
+  margin-top: 30px;
+  padding: 18px;
+  border-radius: 999px;
+  border: none;
+  background: #c2a97f;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.submit:hover {
+  transform: scale(1.02);
+}
